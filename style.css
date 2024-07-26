@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    page: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-color: #ECEFE6;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    font-family: "Anton";
+    display: flex;
+    position: relative;
+    font-size: 60px;
+    color: #595E51;
+    padding-top: 60px;
+    padding-left: 50px;
+ }
+
+ .banner nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    margin-top: 55px;
+ }
+
+
+ .banner nav a{
+    font-family: "Anton";
+    color: #595E51;
+    font-size: 30px;
+    text-decoration: underline transparent;
+ }
+
+ .banner button {
+    border-radius: 55px;
+    background-color: #CAD2BD;
+    font-family: "Anton";
+    width: 137px;
+    height: 55px;
+    border-style: none;
+    font-size: 24px;
+    color: #595E51;
+    margin-top: 330px;
+    margin-left: 40px;
+}
+
+.banner button :hover {
+    cursor: pointer;
+    box-shadow: 15px 10px #E07D0027;
+}
+ 
+.banner img #gitsvg  {
+
+     margin-left: 10px;
+}
+
+
+
+
+

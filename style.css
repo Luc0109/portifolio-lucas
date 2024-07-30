@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .banner {
     background-color: #ECEFE6;
     height: 100vh;
@@ -48,15 +52,47 @@ h1 {
     margin-left: 40px;
 }
 
-.banner button :hover {
-    cursor: pointer;
-    box-shadow: 15px 10px #E07D0027;
-}
- 
-.banner img #gitsvg  {
+#info{
+    background-color: #ECEFE6;
+    height: 100vh;
+    width: 100vw;
 
-     margin-left: 10px;
 }
+h2{
+    font-family: "Anton";
+    display: flex;
+    position: relative;
+    font-size: 60px;
+    color: #595E51;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+#info p {
+    width: 60%;
+    text-align: start;
+    font-family: "Anton";
+    display: flex;
+    position: relative;
+    font-size: 40px;
+    color: #595E51;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+#info img {
+    width: 369px;
+    height: 495px;
+    display: flex;
+    margin-left: 70%;
+    margin-top: -270px;
+}
+
+
+
+
+
+ 
 
 
 

@@ -54,11 +54,11 @@ h1 {
 
 #info{
     background-color: #ECEFE6;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
 
 }
-h2{
+h2, h3, h4, h5, h6{
     font-family: "Anton";
     display: flex;
     position: relative;
@@ -87,6 +87,75 @@ h2{
     margin-left: 70%;
     margin-top: -270px;
 }
+
+.educacao{
+    background-color: #ECEFE6;
+    height: 100%;
+    width: 100vw;
+}
+
+.educacao p {
+    width: 85%;
+    text-align: start;
+    font-family: "Anton";
+    display: flex;
+    position: relative;
+    font-size: 40px;
+    color: #595E51;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+.SKILLS {
+    background-color: #ECEFE6;
+    height: 100%;
+    width: 100vw;
+    font-family: "Anton";
+    color: #595E51
+}
+
+.SKILLS p {
+    width: 60%;
+    text-align: start;
+    font-family: "Anton";
+    display: flex;
+    position: relative;
+    font-size: 40px;
+    color: #595E51;
+    padding-top: 60px;
+    padding-left: 50px;
+    display: flex;
+    
+}
+.Projects {
+    background-color: #ECEFE6;
+}
+
+.Projects p {
+    width: 85%;
+    text-align: start;
+    font-family: "Anton";
+    display: flex;
+    position: relative;
+    font-size: 30px;
+    color: #595E51;
+    padding-top: 60px;
+    padding-left: 800px;
+
+}
+.Projects img {
+    width: 500px;
+    height: 300px;
+    padding-left: 50px;
+    margin-top: 40px;
+    
+}
+
+
+
+ 
+
+
 
 
 
